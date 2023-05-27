@@ -15,6 +15,12 @@ ARMageddon's capabilities include:
 
 Controls outlined in OI.java class
 
+## Libraries Used:
+* [*WPILib*](https://github.com/wpilibsuite/allwpilib/releases/tag/v2023.4.3)
+* [*NavX*](https://dev.studica.com/releases/2023/NavX.json)
+* [*CTRE-Pheonix*](https://maven.ctr-electronics.com/release/com/ctre/phoenix/Phoenix5-frc2023-latest.json)
+* [*RevLib*](https://software-metadata.revrobotics.com/REVLib-2023.json)
+
 ## The authors of this robot's code are: ##
 Joey Borrelli,
 Zane Maples, 
