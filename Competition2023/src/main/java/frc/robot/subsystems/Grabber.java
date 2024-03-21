@@ -16,14 +16,14 @@ public class Grabber extends SubsystemBase{
         RobotContainer.configureTalonSRX(grabberMotor, false, null, false,
                          false, 0, 0, 0, 0, 0, 0, false);
         
-        // Sets us to brake by default to hold gamepieces
+        // Sets us to brake by default to hold game pieces
         grabberMotor.setNeutralMode(NeutralMode.Brake);
     }
 
     @Override
     public void periodic(){}
 
-    public void realese() {
+    public void release() {
         grabberMotor.setVoltage(Constants.GRABBER_VOLTAGE);
     }
 

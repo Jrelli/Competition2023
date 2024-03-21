@@ -9,7 +9,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 public class TagStateHandler extends SubsystemBase{
     public static int t_Array[] = new int[Constants.MAX_TAGS];
     public static boolean tag_Available[] = new boolean[Constants.MAX_TAGS];
-    public static final String name = "T_ID: "; /* Used for smart dashboardie */
+    public static final String name = "T_ID: "; /* Used for smart dashboard */
 
     // Shuffleboard tab = Shuffleboard.getTab("bestTab");
 

@@ -474,7 +474,7 @@ public class SwerveDrive extends SubsystemBase{
 
   /* AUTONOMOUS METHODS */
 
-  // Method to return the pitch of the Gryo, roll because the gyro is mounted sideways, used in autobalance
+  // Method to return the pitch of the Gyro, roll because the gyro is mounted sideways, used in autobalance
   public float getGyroPitch(){
     return(ahrs.getRoll() + Constants.GYRO_ERROR_OFFSET);
 

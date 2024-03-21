@@ -54,7 +54,7 @@ public class InlineCommands{
         // GRABBER
         grabberIntake = new InstantCommand(() -> RobotContainer.GRABBER_OBJ.grab());
         grabberStop = new InstantCommand(() -> RobotContainer.GRABBER_OBJ.stop());
-        grabberRelease = new InstantCommand(() -> RobotContainer.GRABBER_OBJ.realese());
+        grabberRelease = new InstantCommand(() -> RobotContainer.GRABBER_OBJ.release());
         
         // ARM ANGLE
         angleArmWithController = new RunCommand(() -> 

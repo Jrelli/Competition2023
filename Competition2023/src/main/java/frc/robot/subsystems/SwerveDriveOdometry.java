@@ -27,7 +27,7 @@ public class SwerveDriveOdometry extends SubsystemBase {
     //                           / Constants.SWERVE_WHEEL_COUNTS_PER_REVOLUTION);
   }
 
-  // Method to return total disatnce; maybe not needed
+  // Method to return total distance; maybe not needed
   public double getTotalAverageDistanceTraveled(){
     return((totalDistanceTraveledFL + totalDistanceTraveledFR + totalDistanceTraveledBL + totalDistanceTraveledBR)/4);
   }

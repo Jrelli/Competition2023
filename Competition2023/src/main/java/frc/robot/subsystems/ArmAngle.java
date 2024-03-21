@@ -51,7 +51,7 @@ public class ArmAngle extends SubsystemBase{
         SmartDashboard.putNumber("Actual Arm Abs Angle Motor Position: ", armAngleRawActualPosition);
         // Shuffleboard.getTab("bestTab").add("Actual Arm Angle Motor Position: ", armAngleRawActualPosition);
 
-        // ouput desired arm angle
+        // output desired arm angle
         SmartDashboard.putNumber("Desired Arm Angle Motor Position: ", armAngleDesiredPosition);
         // Shuffleboard.getTab("bestTab").add("Desired Arm Angle Motor Position ", armAngleDesiredPosition);
 

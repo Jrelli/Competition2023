@@ -201,6 +201,6 @@ public class RobotContainer{
       talonSRX.setSelectedSensorPosition(0, Constants.K_PID_LOOP_IDX, Constants.K_TIMEOUT_MS);
     }
     
-    System.out.println("Motor (ID:" + talonSRX.getDeviceID() + ") sucessfully configured");
+    System.out.println("Motor (ID:" + talonSRX.getDeviceID() + ") successfully configured");
   }
 }

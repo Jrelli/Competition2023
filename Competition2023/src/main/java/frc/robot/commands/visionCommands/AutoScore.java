@@ -104,7 +104,7 @@ public class AutoScore extends CommandBase{
                 ){ RobotContainer.SWERVE_DRIVE_OBJ.convertSwerveValues(0, 0, 0);
                     return true;} 
 
-                /* Update timeout if the tag cannot be seena */
+                /* Update timeout if the tag cannot be seen */
                 System.out.println("Tag timing out! Uh-oh!"); timeout++;
                 if(timeout == 15){ System.out.println("Tag fully lost, timeout reached. End of command! :("); return false; }
             }
